@@ -1,0 +1,91 @@
+@font-face {
+    font-family:'Allura', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:'Allura', cursive;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 240, 216);
+    
+}
+
+
+h1 {
+    font-size: 4em;
+    margin: 1em;
+}
+
+#carte {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 1em;
+    line-height: 8vh;
+    border: 12px double rgb(224, 240, 216);
+    border-radius: 3vh;
+    cursor: pointer;
+    background-color: rgb(90, 115, 167);
+    color:rgb(224, 240, 216);
+    font-family:'Allura', cursive;
+    font-size: 1.4em;
+    width: 20vw;
+   
+}
+
+#imgText {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    /* margin-left: 10vw; */
+
+    
+}
+
+img {
+    width: 40%;
+    height: auto;
+    border-radius: 15%;
+    margin-top: 2vh;
+    
+
+}
+
+#texte {
+    padding-left: 4vw;
+    width: 30%;
+}
+
+
+
+#nomRecette {
+    font-size: 1.8em;
+}
+
+#preparation {
+    width: 60%;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+}

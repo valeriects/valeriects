@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+    <!-- CDN de VUE  JS  on peut le mettre en haut ou en bas, cela importe peu -->
+    <script src="https://unpkg.com/vue@next"></script>
+    
+    <link rel="stylesheet" href="./tp_recette_aleatoire.css">
+    <title>Tp recette aléatoire</title>
+</head>
+<body>
+
+    <div id="titre">
+        <h1>
+            Ma recette au hasard
+        </h1>
+    </div>
+   
+    <div id="carte">
+        <button @click="changer">Changer de recette</button>
+        <div id="imgText">
+            <img :src="img.src" :alt="img.alt" :title="img.title">
+            <div id="texte">
+                <h3 id="nomRecette">{{ div.nomRecette }} </h3>
+                <h3>Catégorie :  </h3>
+                <p>{{ div.categorie }}</p>
+                <h3>Origine géographique : </h3>
+                <p> {{ div.origineGeo }}</p>
+               
+            </div>
+            
+        </div>
+        <div id="preparation">
+            <h3>Préparation :  
+                        
+            </h3>
+            <p>{{ div.preparation }}</p>
+        </div>
+    </div>
+
+    
+    <script src="tp_recette_aleatoire.js"></script>
+</body>
+</html>
