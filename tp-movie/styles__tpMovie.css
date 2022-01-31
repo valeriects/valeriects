@@ -1,0 +1,116 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(./fondUnivers.jpg);
+  background-repeat: repeat;
+}
+
+:root {
+  /* :root, permet d'ajouter une variable ici on en a fait plusieurs qui concerne les couleurs */
+  --GrillColor: rgb(211, 165, 13);
+  --paragrapheColor: rgb(179, 197, 129);
+  --titreColor: rgb(73, 14, 121);
+  --descriptionColor: rgb(223, 177, 28);
+  --fondRond: rgb(202, 221, 118);
+  --textRond: rgb(47, 15, 77);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+
+  /* comme la taille de section est width : 17em;  avec les flex row et wrap, cela m'affiche en mobile un colonne de carte, et plus on aggrandit la fenetre, plus on peut aligner de carte*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  width: 17em;
+  height: 50em;
+  border: 3px solid var(--GrillColor);
+  border-radius: 0.5em;
+  margin: 1.5em 1em;
+  position: relative;
+  background-color: rgba(1, 1, 10, 0.747);
+}
+
+.imgFilm {
+  width: 100%;
+  height: 24em;
+  border-radius: 0.4em;
+}
+
+article {
+  height: auto;
+  color: var(--paragrapheColor);
+  font-family: Verdana, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.3em;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--GrillColor);
+  color: var(--titreColor);
+  text-transform: capitalize;
+}
+
+h3 {
+  margin: 0;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  font-weight: normal;
+  font-size: 1em;
+  text-decoration: underline;
+  color: var(--descriptionColor);
+}
+
+p {
+  /* pour quand le texte est trop long et max-height: 150px; pour dire que si la limite de 150px est dépassée, le nav met direct en overflow */
+  overflow-y: auto;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  /* 13px la norme */
+  font-size: 13px;
+  font-weight: 300;
+  text-justify: inter-word;
+}
+
+.rond {
+  margin-top: 2em;
+  margin-left: 0.5em;
+  width: 50px;
+  height: 50px;
+  border-radius: 20em;
+  background-color: var(--fondRond);
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--textRond);
+  font-weight: bold;
+  /* positionnement du rond  le conteneur est en position relative donc il hérite de cette propriété et donc on lui met en absolu uniquement le rond*/
+  position: absolute;
+  /* et bottom 7px pour le caler sur le bord du bas a 7 px */
+  bottom: 7px;
+}
+
+/* couleur du texte des conditions ternaire sur le rond */
+.up {
+  color: rgb(11, 88, 94);
+}
+
+.down {
+  color: rgb(177, 16, 16);
+}
