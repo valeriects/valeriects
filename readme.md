@@ -6,7 +6,3 @@
 - Bizarrement, elle aide les abeilles en difficultées en leur donnant de la confiture de fraise...peut-être qu'un jour elle leur donnera du miel 🍯?
 - Je crois que ton temps est écoulé, donc si tu veux bien, referme cette page que je puisse me rendormir 💤.    
 - Merci de ta visite. 👋
-  
-
-
-# tp-recette-aleatoire
