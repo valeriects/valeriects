@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Conversion unité mesure</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Conversion de différents types d'unité de mesure</h1>
+        <section id="navBtn">
+            <button class="navbtn navMasse">Masse</button>
+            <button class="navbtn navVolume">Volume</button>
+            <button class="navbtn navDistance">Distance</button>
+            <button class="navbtn navTemp">Température</button>
+        </section>
+    </header>
+
+    <main>
+
+        <section id="mesure">
+
+            <!-- DEBUT MASSE -->
+            <section id="masse"  class="hidden masse">
+                <div class="left">
+                    <label for="mesureMasse"></label>
+                    <input type="number" name="mesureMasse" id="mesureMasse" placeholder="Entrez un nombre">
+                    <select name="selectMasse" id="selectMasse">
+                        <option value="kg">kilogramme</option>
+                        <option value="hg">hectogramme</option>
+                        <option value="dag">décagramme</option>
+                        <option value="g" selected>gramme</option>
+                        <option value="dg">décigramme</option>
+                        <option value="cg">centigramme</option>
+                        <option value="mg">milligramme</option>
+                        
+                    </select>
+                </div>
+                
+                <div class="right">
+                    <label for="mesureMasse2"></label>
+                    <input type="number" name="mesureMasse2" id="mesureMasse2" disabled>
+                    <select name="selectMasse2" id="selectMasse2">
+                        <option value="kg">kilogramme</option>
+        -                <option value="hg">hectogramme</option>
+                        <option value="dag">décagramme</option>
+                        <option value="g">gramme</option>
+                        <option value="dg">décigramme</option>
+                        <option value="cg">centigramme</option>
+                        <option value="mg" selected>milligramme</option>
+                    
+                    </select>
+                </div>
+
+            </section>
+            <!-- FIN MASSE -->
+
+            <!-- DEBUT VOLUME -->
+            <section id="volume"  class="hidden volume">
+                <div class="left">
+                    <label for="mesureVolume"></label>
+                    <input type="number" name="mesureVolume" id="mesureVolume" placeholder="Entrez un nombre">
+                    <select name="selectVolume" id="selectVolume">
+                        <option value="kl">kilolitre</option>
+                        <option value="hl">hectolitre</option>
+                        <option value="dal">décalitre</option>
+                        <option value="l" selected>litre</option>
+                        <option value="dl">décilitre</option>
+                        <option value="cl">centilitre</option>
+                        <option value="ml">millilitre</option>
+                        
+                    </select>
+                </div>
+                
+                <div class="right">
+                    <label for="mesureVolume2"></label>
+                    <input type="number" name="mesureVolume2" id="mesureVolume2" disabled>
+                    <select name="selectVolume2" id="selectVolume2">
+                        <option value="kl">kilolitre</option>
+                        <option value="hl">hectolitre</option>
+                        <option value="dal">décalitre</option>
+                        <option value="l">litre</option>
+                        <option value="dl">décilitre</option>
+                        <option value="cl" selected>centilitre</option>
+                        <option value="ml">millilitre</option>
+                    
+                    </select>
+                </div>
+
+            </section>
+            <!-- FIN VOLUME -->
+
+
+            <!-- DEBUT DISTANCE -->
+            <section id="distance" class="hidden distance">
+                <div class="left">
+                    <label for="mesureLongueur"></label>
+                    <input type="number" name="mesureLongueur" id="mesureLongueur" placeholder="Entrez un nombre">
+                    <select name="selectLongueur" id="selectLongueur">
+                        <option value="km">kilomètre</option>
+                        <option value="hm">hectomètre</option>
+                        <option value="dam">décamètre</option>
+                        <option value="m" selected>mètre</option>
+                        <option value="dm">décimètre</option>
+                        <option value="cm">centimètre</option>
+                        <option value="mm">millimètre</option>
+                        <option value="µm">micromètre</option>
+                        <option value="nm">nanomètre</option>
+                        <option value="pm">picomètre</option>
+                        
+                    </select>
+                </div>
+                
+                <div class="right">
+                    <label for="mesureLongueur2"></label>
+                    <input type="number" name="mesureLongueur2" id="mesureLongueur2" disabled>
+                    <select name="selectLongueur2" id="selectLongueur2">
+                        <option value="km">kilomètre</option>
+                        <option value="hm">hectomètre</option>
+                        <option value="dam">décamètre</option>
+                        <option value="m">mètre</option>
+                        <option value="dm">décimètre</option>
+                        <option value="cm" selected>centimètre</option>
+                        <option value="mm">millimètre</option>
+                        <option value="µm">micromètre</option>
+                        <option value="nm">nanomètre</option>
+                        <option value="pm">picomètre</option>
+                    
+                    </select>
+                </div>
+
+            </section>
+            <!-- FIN DISTANCE -->
+
+
+            <!-- DEBUT TEMPERATURE -->
+            <section id="temperature"  class="hidden temp">
+                <div class="left">
+                    <label for="mesureTemp"></label>
+                    <input type="number" name="mesureTemp" id="mesureTemp" placeholder="Entrez un nombre">
+                    <select name="selectTemp" id="selectTemp">
+                        <option value="°C" selected>Degré Celsius</option>
+                        <option value="Thermostats">Thermostats du four</option>
+                        <option value="°F">Degré Fahrenheit</option>
+                        <option value="K">Kelvin</option>
+                        
+                    </select>
+                </div>
+                
+                <div class="right">
+                    <label for="mesureTemp2"></label>
+                    <input type="number" name="mesureTemp2" id="mesureTemp2" disabled>
+                    <select name="selectTemp2" id="selectTemp2">
+                        <option value="°C">Degré celsius</option>
+                        <option value="Thermostats" selected>Thermostats du four</option>
+                        <option value="°F"> Degré Fahrenheit</option>
+                        <option value="K">Kelvin</option>
+                    
+                    </select>
+                </div>
+
+            </section>
+            <!-- FIN TEMPERATURE -->
+
+
+        </section>
+    </main>
+
+
+
+    <!-- <script src="./scripts/section.js"></script> -->
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/distance.js"></script>
+    <script src="./scripts/volume.js"></script>
+    <script src="./scripts/masse.js"></script>
+    <script src="./scripts/temperature.js"></script>
+</body>
+</html>
