@@ -1,0 +1,153 @@
+
+/* class a retiré dans la boucle du js pour le bouton "nous contacter" */
+.hidden {
+    display: none;
+}
+
+
+#popup1 {
+    /* display: none; */
+    background-color: var(--marronClair);
+    width: 70%;
+    height: 70vh;
+    border-radius: 2em;
+    position: fixed;
+    left: 15%;
+    top: 20%;
+    z-index: 999;
+}
+
+#croix {
+    /* rendre la div id="croix" nulle car sinon il y a un autre espace ou on fait du hover et qui change la couleur de la croix */
+    width: 0;
+    cursor: pointer;
+}
+
+.fa-times-circle {
+    color: var(--beigeClair);
+    font-size: 1.5em;
+}
+
+#croixCreuse {
+    transform: translate(65vw, 3.4vh);
+}
+
+/* la classe qui toggle dans le js */
+.cache {
+    visibility: hidden;
+}
+
+/* position du #croixPleine par dessus le #croixCreuse */
+#croixPleine {
+    transform: translate(65vw, -0.7vh);
+
+}
+
+.titreVert {
+    color: var(--bleuVert);
+    text-transform: none;
+    margin-top:-6vh;
+    padding-left: 3vw;
+    padding-bottom: 0;
+    font-size: 2.4em;
+
+}
+
+
+.popContact {
+    color: var(--beigeClair);
+    margin: 0;
+    padding-left: 3vw;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+input {
+    background-color: var(--beige);
+    border-radius: 1.5em;
+    margin: .5vw 14vh;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 1em;
+    color: var(--marronFonce);
+    font-weight: 400;
+    padding-left: 1vw;
+}
+
+.message {
+    height: 15vh;
+    display: flex;
+}
+/* comment faire pour que le texte message soit en haut */
+
+/* 
+.message > ::placeholder {
+    padding-bottom: 5em;
+
+} */
+
+
+.champRequis {
+    color: var(--beige);
+    margin: 0 0 0 9vw;
+    font-weight: 300;
+}
+
+#appuyer {
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5vh;
+    margin-left: 7.9vw;
+}
+
+.aligneRondSpan {
+    display: flex;
+    align-items: center;
+}
+
+.selectRond {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    border: 1px solid var(--beigeClair);
+    cursor: pointer;
+    margin-left: -1vw;
+}
+
+.pPopup {
+    color: var(--beigeClair);
+    font-weight: 300;
+    margin: 0;
+    padding-left: .4vw;
+}
+
+#btnVertPopup {
+    background-color: var(--bleuVert);
+    color: var(--marronClair);
+    border-radius: 2em;
+    border: none;
+    width: 13vw;
+    height: 2vh;
+    font-weight: 700;
+    padding-bottom: 4vh;
+    cursor: pointer;
+    
+
+}
+

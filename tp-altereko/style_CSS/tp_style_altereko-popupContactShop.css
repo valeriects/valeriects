@@ -1,0 +1,138 @@
+.hidden {
+    display: none;
+}
+
+#popupShop {
+    
+    background-color: var(--marronClair);
+    width: 75%;
+    height: 76vh;
+    border-radius: 5vh;
+    position: fixed;
+    left: 12.5%;
+    top: 15%;
+}
+
+#croix {
+    /* rendre la div id="croix" nulle car sinon il y a un autre espace ou on fait du hover et qui change la couleur de la croix */
+    width: 0;
+    cursor: pointer;
+}
+
+.fa-times-circle {
+    color: var(--beigeClair);
+    font-size: 25px;
+    transform: translate(69.6vw, 4.5vh);
+}
+
+/* la classe qui toggle dans le js */
+.cache {
+    visibility: hidden;
+}
+
+/* position du #croixPleine par dessus le #croixCreuse */
+.fas {
+    transform: translate(69.6vw, 0.08vh);
+
+}
+
+.titreVert {
+    color: var(--bleuVert);
+    text-transform: none;
+    margin-top: -5.5vh;
+    margin-bottom: 0;
+    padding-left: 5vh;
+    padding-bottom: 0;
+    font-size: 2.5em;
+
+}
+
+
+.popContact {
+    color: var(--beigeClair);
+    margin: 0;
+    padding-left: 5vh;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+input {
+    background-color: var(--beige);
+    border-radius: 2em;
+    margin: .5em 8em;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 1em;
+    color: var(--marronFonce);
+    font-weight: 400;
+    padding-left: 1em;
+}
+
+.message {
+    height: 18vh;
+    display: flex;
+
+}
+
+.champRequis {
+    color: var(--beige);
+    margin: 0 0 0 9em;
+    font-weight: 300;
+}
+
+#appuyer {
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5em;
+    margin-left: 7.9em;
+}
+
+.aligneRondSpan {
+    display: flex;
+    align-items: center;
+}
+
+.selectRond {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    border: 1px solid var(--beigeClair);
+    cursor: pointer;
+}
+
+.pPopup {
+    color: var(--beigeClair);
+    font-weight: 300;
+    margin: 0;
+    padding-left: .4em;
+}
+
+#btnVertPopup {
+    background-color: var(--bleuVert);
+    color: var(--marronClair);
+    border-radius: 2em;
+    border: none;
+    width: 13vw;
+    height: 2vh;
+    font-weight: 700;
+    padding-bottom: 4vh;
+    cursor: pointer;
+    
+
+}

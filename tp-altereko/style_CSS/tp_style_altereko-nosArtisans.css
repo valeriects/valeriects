@@ -1,0 +1,149 @@
+
+#Nos_artisans {
+    background-color: var(--marronClair);
+    height: 100vh;
+    
+}
+
+#deux {
+    padding-top: 15vh;
+    padding-left: 5vw;
+    
+}
+
+#beige {
+    color: var(--beige);
+}
+
+#beigeclair {
+    color: var(--beigeClair);
+    font-size: 2.5em;
+}
+
+
+.gradientLinearG {
+    background-image: linear-gradient(0.25turn, var(--beige), #53474100);
+    z-index: 990;
+    width: 20%;
+    height: 70%;
+    transform: translateY(-75vh);
+    /* position: relative, pour que cela passe en avant plan */
+    position: relative;
+
+}
+
+.gradientLinearD {
+    background-image: linear-gradient(0.25turn,  #53474100, var(--marronClair));
+    z-index: 990;
+    width: 20%;
+    height: 70%;
+    position: relative;
+    transform: translate(79vw ,-145vh);
+   
+
+}
+
+/* POUR MASQUER SCROL HORIZONTAL */
+
+#scroll {
+    width: 100%;
+    height: 100%;
+    z-index: 600;
+
+    /* essay pour masquer le scroll horizontal */
+
+    overflow: hidden; 
+    position: relative;
+    /* fin de pour masquer scroll horizontal */
+
+}
+
+#carousel {
+    z-index: 600;
+    width: 100%;
+    height: 75%;
+    display:flex;
+    justify-content: space-between;
+    /* pour avoir le défilement horizontal */
+    overflow-x: scroll;
+    /* pour masquer la barre de scroll horizontal */
+    overflow-y: hidden;
+    position: absolute;
+    left: 0;
+    /*fin pr masquer barre scroll horizontal de cette div  */
+}
+/* pour masquer la barre de scroll horizontal */
+#carousel::-webkit-scrollbar {
+    display: none;
+    } 
+
+#carousel {
+    -ms-overflow-style: none;  
+    overflow: -moz-scrollbars-none;  
+}
+/* fin pr masquer barre scroll horizontal de cette div  */
+
+/* FIN DE POUR MASQUER SCROLL HORIZONTAL */
+
+.cartes, .text {
+    z-index: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartes {
+    z-index: 600;
+    background-color: var(--marronFonce);
+    border-radius: 2em;
+    width: 100%;
+    height: 52vh;
+    color: var(--beige);
+    /* margin: 15vh .5vw 0vh; */
+    transform: translateY(18vh);
+    margin: 0 .5vw;
+
+}
+
+.petitRond {
+    z-index: 600;
+    border-radius: 50%;
+    width: 63%;
+    /* height: 63%; */
+    border: 18px solid var(--marronFonce);
+    transform: translateY(-13vh);
+}
+
+.nom, .lieu, .bleuVert {
+    z-index: 600;
+    margin: 0;
+    font-size: 1em;
+}
+
+.lieu {
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+.bleuVert {
+    color: var(--bleuVert);
+    font-weight:500;
+}
+
+.pCartes {
+    z-index: 600;
+    color: var(--beigeClair);
+    font-weight: 300; 
+    width: 19vw;
+    padding-top: -1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1em;
+
+}
+
+.text {
+    z-index: 600;
+    transform: translateY(-13.5vh);
+}

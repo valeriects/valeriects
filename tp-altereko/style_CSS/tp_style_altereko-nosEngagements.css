@@ -1,0 +1,82 @@
+
+
+#Nos_engagements {
+    background-color: var(--bleuVert);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+#fond {
+    background-color: var(--preskBlanc);
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#fond2 {
+    background-image: url(../fond_cercles2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50%;
+    width: 45%;
+    transform: translate(3.5vw, -11vh);
+   
+}
+
+/* pourquoi le trait bouge verticalement lorqu'on change d'écran */
+#traitClair {
+    transform: translate(-2.5vw, 21vh);
+    height: 67%;
+    width: .3vw;
+    background-color: var(--beige);
+    z-index: 0;
+
+}
+
+.positionEngagements {
+    border-radius: 50%;
+    width: 70%;
+    transform: translate(4vw, 2vh);
+}
+
+#trois {
+    width: 40%;
+    height: 50%;
+    /* margin-right: 10em; */
+    transform: translate(-7vw, 13vh);
+    
+}
+
+.ethique {
+    color: var(--beige);
+}
+
+.titre2Engagement {
+    width: 34vw;
+}
+
+.btnEng {
+    border-radius: 2em;
+    background-color: var(--bleuVert);
+    color: var(--marronClair);
+    font-weight: 500;
+    width: 14vw;
+    border: none;
+    margin-top: 1.5vh;
+    cursor: pointer;
+}
+
+.pEng {
+    color: var(--marronClair);
+    margin-top: 1.5vh;
+    width: 100%;
+}
+
+
+
+

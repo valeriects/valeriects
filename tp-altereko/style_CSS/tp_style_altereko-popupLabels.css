@@ -1,0 +1,88 @@
+/* popup */
+/* class a retiré dans la boucle du js pour le bouton "nous contacter"  et "nos engagements" */
+.hiddenLabels {
+    display: none;
+}
+
+#popup2 {
+    background-color: var(--beigeClair);
+    width: 70%;
+    height: 98vh;
+    border: 4px solid var(--marronClair);
+    border-radius: 2em;
+    padding: 2em 1em 1em 2em;
+    position: fixed;
+    left: 15.1%;
+    top: .5em;
+    z-index: 999;
+}
+
+/* css icones */
+#croixLabels {
+    cursor: pointer;
+}
+
+#labelCroixCreuse {
+    transform: translate(35.5em, -.5em);
+    color: var(--marronClair);
+}
+
+/* la classe qui toggle dans le js */
+.cache2 {
+    visibility: hidden;
+}
+
+/* position du #croixPleine par dessus le #croixCreuse */
+#labelCroixPleine {
+    color: var(--marronClair);
+    transform: translate(34.35em, -.5em);
+
+}
+/* fin css icones */
+
+#titreLabels {
+    margin-left: .5em;
+    margin-top: -1em;
+}
+
+.labels {
+    height: 32%;
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 1.3em;
+    border-bottom: 2px solid var(--beige);
+}
+
+.titrePopClair {
+    color: var(--beige);
+}
+
+.imgEtP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75em;
+   
+}
+
+.macaronsLabelRond {
+    width : 10%;
+    height: 10%;
+}
+
+.macaronsLabel {
+    width : 7%;
+    height: 7%;
+    margin-left: 1.2em;
+    
+}
+
+.pop2 {
+    height: 4em;
+    width: 40em;
+    margin-left: 1em;
+}
+
+.traitNone {
+    border: none;
+}

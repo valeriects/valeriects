@@ -1,0 +1,96 @@
+
+/* la police est mieux en em et non en px, de base une police de caractère vaut 16px, mais cela peut changer avec le choix de la police en elle-même */
+
+
+#Accueil {
+    background-color: var(--beige);
+    /*height: 50em;*/
+    /* c'est mieux en vh 100vh est la taille d'un écran de base pour n'importe quel écran */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3.5vw;
+    
+}
+
+ /* pourquoi le trait est disposé en avant de la barNav !!
+  */
+#traitSombre {
+    transform: translate(5.4vw, 12.5vh);
+    height: 83vh;
+    width: .3vw;
+    background-color: var(--marronClair);
+
+} 
+
+#un {
+    width: 36%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    padding-left: 4.5vw;
+    padding-top: 21vh;
+    
+}
+
+h3 {
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--beigeClair);
+    font-size: 1.8em;
+    font-weight: 500;
+    
+}
+
+h2 {
+    color: var(--marronClair);
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+#commande {
+    color: var(--bleuVert);
+    background-color: var(--marronClair);
+    border-radius: 2em;
+    width: 14vw;
+    line-height: 2.5vh;
+    margin-top: 1.5vw;
+    font-weight: 400;
+    border: none;
+    font-stretch: ultra-expanded;
+    cursor: pointer;
+    
+}
+
+p {
+    width: 75%;
+    margin-top: .5vh;
+    color: var(--marronClair);
+    font-weight: 500;
+}
+
+#fond1 {
+    background-image: url(../fond_cercles.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    width: 40%;
+    /* margin-top: 60vh; */
+    transform: translate(-4vw, 21.2vh);
+}
+
+.rond {
+    border-radius: 50%;
+    width: 70%;
+    
+}
+
+.positionaccueil {
+    transform: translate(7vw, 2.5vh);
+}
+
