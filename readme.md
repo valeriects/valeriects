@@ -1,6 +1,6 @@
 - Hello 👋, mystérieux visiteur.
-- Te voici sur la page de @valeriects. 
-- Ah, tu es venu pour en savoir plus ? Tu es sûr ?
+- Te voici dans l'espace de @valeriects. 
+- Tu es venu pour en savoir plus sur elle ? Que puis-je te dire ...
 - Voyons voir, elle aime lire 📚 ainsi que pleins d'autres choses, dont nous ne parlerons pas ici.
 - Une info insolite ? 
 - Bizarrement, elle aide les abeilles en difficultées en leur donnant de la confiture de fraise...peut-être qu'un jour elle leur donnera du miel 🍯?    
