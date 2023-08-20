@@ -3,5 +3,6 @@
 - Ah, tu es venu pour en savoir plus ? Tu es sûr ?
 - Voyons voir, elle aime lire 📚 ainsi que pleins d'autres choses, dont nous ne parlerons pas ici.
 - Une info insolite ? 
-- Bizarrement, elle aide les abeilles en difficultées en leur donnant de la confiture de fraise...peut-être qu'un jour elle leur donnera du miel 🍯?    
+- Bizarrement, elle aide les abeilles en difficultées en leur donnant de la confiture de fraise...peut-être qu'un jour elle leur donnera du miel 🍯?
+- Tu peux visiter et naviguer dans ses humbles travaux.
 - Merci de ta visite. 👋
