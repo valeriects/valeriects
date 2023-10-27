@@ -1,17 +1,30 @@
-
 @font-face {
     font-family: 'Heebo', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap');
 }
 
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-html, body {
-    margin:0;
-    padding:0;
-    height:100%;
+html,
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Heebo', sans-serif;
     /* car 16px = 1em */
     font-size: 1em;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom : 2em;
 }
 
 
@@ -24,7 +37,7 @@ le % pr images */
 :root {
     /* pour cercle, rond background section 3 et .bleuVert et le font du bouton commander en ligne et le background du bouton nos engagements */
     /* SHOP: background au survol element nav*/
-    --bleuVert : #39ffc9;
+    --bleuVert: #39ffc9;
     /* pr cartes */
     --marronFonce: #2a2522;
     /* bouton nav  h2 section3, font du bouton nos engagements, texte lorem page 1, texte footer */
@@ -57,7 +70,7 @@ le % pr images */
 
 }
 
-#lien-logo{
+#lien-logo {
     width: 20%;
     height: 100%;
 }
@@ -73,14 +86,14 @@ le % pr images */
     transform: translateX(-7vw);
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 a {
     color: var(--marronClair);
     text-decoration: none;
     font-weight: 700;
-    
+
 }
 
 .a_accueil:hover {
@@ -99,29 +112,31 @@ a {
 
 }
 
-
-
 footer {
     background-color: var(--beige);
     color: var(--marronClair);
     display: flex;
     justify-content: center;
-     margin-bottom: 0;
+    align-items: center;
+    margin-bottom: 0;
     height: 4.5vh;
-    z-index: 999;
-    bottom: 0; 
-    
+    z-index: 990;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0
 }
 
 span {
     margin: 1.2vh 2vw;
     font-weight: 600;
     align-items: center;
-    z-index: 999;
+    z-index: 990;
 }
 
 
 /* cursor: pointer; */
-.a_accueil:hover, #buttonNav {
+.a_accueil:hover,
+#buttonNav {
     cursor: pointer;
 }
